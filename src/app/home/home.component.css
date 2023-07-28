@@ -1,0 +1,31 @@
+.titolo{
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+}
+
+.btn-contattaci{
+  width: 240px;
+  height: 39px;
+  border-radius: 20px;
+  background-color: #20CD8D;
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.img-jumbo{
+  width: 340px;
+}
+
+.home{
+  height: 80vh;
+}
+
+
+
+
+
+
+
+
+/*  */
