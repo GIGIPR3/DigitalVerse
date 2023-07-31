@@ -18,10 +18,23 @@
 }
 
 .home{
-  height: 80vh;
+  height: 88vh;
 }
 
+@media screen and (min-width: 425px){
+  .titolo{
+    font-size: 60px;
+  }
+  .btn-contattaci{
+    width: 280px;
+    height: 48px;
+    font-size: 23px;
+  }
 
+  .img-jumbo{
+    width: 390px;
+  }
+}
 
 
 
