@@ -32,8 +32,112 @@
   }
 
   .img-jumbo{
-    width: 390px;
+    width: 100%;
   }
+}
+
+@media screen and (min-width: 576px){
+  .titolo{
+    font-size: 65px;
+  }
+  /* .btn-contattaci{
+    width: 280px;
+    height: 48px;
+    font-size: 23px;
+  } */
+
+  .img-jumbo{
+    width: 520px;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .titolo{
+    font-size: 65px;
+  }
+
+  .img-jumbo{
+    width: 600px;
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .flexata{
+    flex-direction: row !important;
+    align-items: center !important;
+  }
+
+  .titolo{
+    font-size: 80px;
+  }
+
+  .img-jumbo{
+    width: 500px;
+    margin: auto;
+  }
+
+  .home{
+    height: 80vh;
+  }
+
+  .arrow{
+    width: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1200px){
+
+  .titolo{
+    font-size: 85px;
+  }
+
+  .img-jumbo{
+    width: 550px;
+    margin: auto;
+  }
+
+  .home{
+    height: 80vh;
+  }
+
+  .arrow{
+    width: 200px !important;
+  }
+}
+
+@media screen and (min-width: 1400px){
+
+  .titolo{
+    font-size: 100px;
+  }
+
+  .img-jumbo{
+    width: 630px;
+    margin: auto;
+  }
+
+  .home{
+    height: 80vh;
+  }
+
+  .arrow{
+    width: 200px !important;
+  }
+
+  .btn-contattaci{
+    width: 350px;
+    height: 55px;
+    font-size: 30px;
+  }
+
+  .container{
+    max-width: 1400px !important;
+  }
+
+
+
+
 }
 
 
